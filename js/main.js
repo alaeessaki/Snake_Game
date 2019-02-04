@@ -37,7 +37,7 @@ function draw(){
 
   }
 
-  fill(255,255,255);
+  fill(178,34,34);
   rect(food.x, food.y, scl, scl);
 }
 
@@ -135,7 +135,7 @@ function Snake(){
       rect(this.tail[i].x, this.tail[i].y, scl, scl);
     }
 
-    fill(255);
+    fill(50,205,50);
     rect(this.x, this.y, scl,scl);
   }
   this.dir = function(x,y){
